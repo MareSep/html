@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: #ededed;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    background-color: #fff;
+}
+
+/*Päis ja menüü*/
+.header{
+    background-color: #666;
+    color: #fff;
+    line-height: 100px;
+    padding: 0 40px;
+}
+.menu a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: #aaa;
+    text-decoration: underline;
+}
+
+.menu ul{
+    list-style-type: none;
+    display: flex;
+    padding: 10px 40px;
+}
+
+.menu li{
+    margin-right: 30px;
+}
+
+/*Sisu*/
+.content{
+    padding: 10px 40px;
+}
+
+.content h1, .content h2{
+    font-weight: 400;
+    color: #444;
+}
+
+.content h1, .content h2, .content p{
+    margin: 20px 0;
+}
+
+.content img{
+    width: 100%;
+}
+.content ul{
+    margin: 0 40px;
+}
+/*Jalus*/
+
+.footer, .menu{
+    background-color: #000;
+    color: #fff;
+}
+
+.footer{
+    line-height: 80px;
+    padding: 0 40px;
+}
